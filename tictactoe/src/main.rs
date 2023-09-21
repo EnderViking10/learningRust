@@ -120,8 +120,6 @@ impl Game {
             }
         } else if user_input == '\n' {
             self.enter();
-        } else {
-            println!("{:?}", user_input);
         }
     }
 }
